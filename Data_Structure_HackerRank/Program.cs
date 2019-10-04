@@ -11,9 +11,7 @@ namespace Data_Structure_HackerRank
     {
         static void Main(string[] args)
         {
-            int[] arr = Arrays_DS.reverseArray(new int[] { 2,3,4,5});
-            foreach (int i in arr)
-                Console.Write(i + " ");
+           
 
 
             //to make output console visible
