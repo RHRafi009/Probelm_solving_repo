@@ -11,8 +11,7 @@ namespace Data_Structure_HackerRank
     {
         static void Main(string[] args)
         {
-            
-
+           
             //to make output console visible
             Console.ReadKey();  
         }

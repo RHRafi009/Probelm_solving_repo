@@ -46,6 +46,7 @@
     <Compile Include="Arrays\2DArray-DS.cs" />
     <Compile Include="Arrays\Arrays-DS.cs" />
     <Compile Include="Arrays\LeftRotation.cs" />
+    <Compile Include="Arrays\SparseArrays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
