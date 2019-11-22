@@ -13,7 +13,6 @@ namespace Data_Structure_HackerRank
         static void Main(string[] args)
         {
 
-            MaximumElement.MaxElement();
             //to make output console visible
             Console.ReadKey();  
         }
