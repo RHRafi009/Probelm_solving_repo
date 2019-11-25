@@ -12,7 +12,12 @@ namespace Data_Structure_HackerRank
     {
         static void Main(string[] args)
         {
+
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            //cal method here
             
+            watch.Stop();
+            Console.WriteLine(watch.Elapsed);
             //to make output console visible
             Console.ReadKey();  
         }
