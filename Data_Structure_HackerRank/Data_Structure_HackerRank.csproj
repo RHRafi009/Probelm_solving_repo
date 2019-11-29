@@ -52,6 +52,7 @@
     <Compile Include="Stacks\BalancedBrackets.cs" />
     <Compile Include="Stacks\EqualStacks.cs" />
     <Compile Include="Stacks\MaximumElement.cs" />
+    <Compile Include="Stacks\SimpleTextEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

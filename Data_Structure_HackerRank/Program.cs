@@ -15,9 +15,9 @@ namespace Data_Structure_HackerRank
 
             var watch = System.Diagnostics.Stopwatch.StartNew();
             //cal method here
-            
+
             watch.Stop();
-            Console.WriteLine(watch.Elapsed);
+            Console.WriteLine("Time needed: " + watch.Elapsed);
             //to make output console visible
             Console.ReadKey();  
         }
