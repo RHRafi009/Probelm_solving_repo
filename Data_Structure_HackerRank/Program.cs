@@ -15,7 +15,10 @@ namespace Data_Structure_HackerRank
 
             var watch = System.Diagnostics.Stopwatch.StartNew();
             //cal method here
-
+            //5 4 10
+            //4 2 4 6 1
+            //2 1 8 5
+            Console.WriteLine(GameofTwoStacks.twoStacks(10, new int[] { 4, 2, 4, 6, 1 }, new int[] { 2, 1, 8, 5 }));
             watch.Stop();
             Console.WriteLine("Time needed: " + watch.Elapsed);
             //to make output console visible
