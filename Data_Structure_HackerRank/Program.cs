@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Data_Structure_HackerRank.Arrays;
 using Data_Structure_HackerRank.Stacks;
+using Data_Structure_HackerRank.Strings;
 
 namespace Data_Structure_HackerRank
 {
@@ -18,7 +19,9 @@ namespace Data_Structure_HackerRank
             //5 4 10
             //4 2 4 6 1
             //2 1 8 5
-            Console.WriteLine(GameofTwoStacks.twoStacks(10, new int[] { 4, 2, 4, 6, 1 }, new int[] { 2, 1, 8, 5 }));
+            //Console.WriteLine(GameofTwoStacks.twoStacks(10, new int[] { 4, 2, 4, 6, 1 }, new int[] { 2, 1, 8, 5 }));
+
+            Console.WriteLine(Super_Reduced_String.superReducedString("baab"));
             watch.Stop();
             Console.WriteLine("Time needed: " + watch.Elapsed);
             //to make output console visible
