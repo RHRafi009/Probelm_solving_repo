@@ -55,6 +55,7 @@
     <Compile Include="Stacks\MaximumElement.cs" />
     <Compile Include="Stacks\PoisonousPlants.cs" />
     <Compile Include="Stacks\SimpleTextEditor.cs" />
+    <Compile Include="Strings\CamelCase.cs" />
     <Compile Include="Strings\Super_Reduced_String.cs" />
   </ItemGroup>
   <ItemGroup>
