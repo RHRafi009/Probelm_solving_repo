@@ -56,7 +56,8 @@
     <Compile Include="Stacks\PoisonousPlants.cs" />
     <Compile Include="Stacks\SimpleTextEditor.cs" />
     <Compile Include="Strings\CamelCase.cs" />
-    <Compile Include="Strings\Super_Reduced_String.cs" />
+    <Compile Include="Strings\MarsExploration.cs" />
+    <Compile Include="Strings\SuperReducedString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

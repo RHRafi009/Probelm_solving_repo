@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data_Structure_HackerRank.Strings
 {
-    public class Super_Reduced_String
+    public class SuperReducedString
     {
 
         static bool checkDouble(string s)
