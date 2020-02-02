@@ -15,7 +15,7 @@ namespace Data_Structure_HackerRank
         {
 
             var watch = System.Diagnostics.Stopwatch.StartNew();
-            //cal method here
+            //call method here
             //5 4 10
             //4 2 4 6 1
             //2 1 8 5
