@@ -20,7 +20,7 @@ namespace Data_Structure_HackerRank
             //4 2 4 6 1
             //2 1 8 5
             //Console.WriteLine(GameofTwoStacks.twoStacks(10, new int[] { 4, 2, 4, 6, 1 }, new int[] { 2, 1, 8, 5 }));
-            Console.WriteLine(Pangrams.pangrams("We promptly judged antique ivory buckles for the prize"));
+            Console.WriteLine(BeautifulBinaryString.beautifulBinaryString("0100101010"));
             watch.Stop();
             Console.WriteLine("Time needed: " + watch.Elapsed);
             //to make output console visible
