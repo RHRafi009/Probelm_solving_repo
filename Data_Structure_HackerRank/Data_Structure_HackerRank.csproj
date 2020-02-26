@@ -57,6 +57,7 @@
     <Compile Include="Stacks\SimpleTextEditor.cs" />
     <Compile Include="Strings\BeautifulBinaryString.cs" />
     <Compile Include="Strings\CamelCase.cs" />
+    <Compile Include="Strings\Gemstones.cs" />
     <Compile Include="Strings\MarsExploration.cs" />
     <Compile Include="Strings\Pangrams.cs" />
     <Compile Include="Strings\SuperReducedString.cs" />
