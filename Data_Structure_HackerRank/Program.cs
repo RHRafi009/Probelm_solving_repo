@@ -15,13 +15,15 @@ namespace Data_Structure_HackerRank
         {
 
             var watch = System.Diagnostics.Stopwatch.StartNew();
-            //call method here
-            //5 4 10
-            //4 2 4 6 1
-            //2 1 8 5
-            //Console.WriteLine(GameofTwoStacks.twoStacks(10, new int[] { 4, 2, 4, 6, 1 }, new int[] { 2, 1, 8, 5 }));
-            string[] arr = { "basdfj", "asdlkjfdjsa", "bnafvfnsd", "oafhdlasd" };
-            Console.WriteLine(Gemstones.gemstones(arr));
+            List<List<int>> queries = new List<List<int>>() 
+            {
+                new List<int> { 1, 0, 5},
+                new List<int> { 1, 1, 7},
+                new List<int> { 1, 0, 3},
+                new List<int> { 2, 1, 0},
+                new List<int> { 2, 1, 1}
+            };
+            List<int> res = DynamicArray.dynamicArray(2, queries);
             watch.Stop();
             Console.WriteLine("Time needed: " + watch.Elapsed);
             //to make output console visible
