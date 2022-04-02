@@ -1,5 +1,5 @@
 # Data_Structure_HackerRank
-This project contains the solutions of the data structures problems in HackerRank. 
+This project contains the solutions of various data structure and algorithmic problems from various sites like hacekrrank, leetcode etc. 
 
 The solutions is implemented using C# language. This is a console application that runs on the .NET framewrok. 
 
