@@ -26,13 +26,11 @@ namespace Data_Structure_HackerRank.Arrays
         public static List<int> dynamicArray(int n, List<List<int>> queries)
         {
             List<int> ans = new List<int>();
-            List<List<int>> arr = new List<List<int>>() 
-            {
-                new List<int>(),
-                new List<int>()
-            };
-            int lastAnswer = 0;
-            int idx;
+            List<List<int>> arr = new List<List<int>>();
+            int lastAnswer = 0, idx;
+
+            for (int i = 0; i < n; i++)
+                arr.Add(new List<int>());
 
             foreach (List<int> query in queries)
             {
