@@ -1,33 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Data_Structure_HackerRank.Arrays
 {
     class LeftRotation
     {
+        // Problem link - https://www.hackerrank.com/challenges/array-left-rotation/problem?isFullScreen=false
 
-        // This will fail test case 6 and 9 due to large number of values 
-
-        public static int[] LeftRotate(int[] arr, int d)
+        public static List<int> LeftRotate(int d, List<int> arr)
         {
-            int[] temp = new int[d];
-            for(int i=0; i<d; i++)
+            int arrLength = arr.Count;
+
+            List<int> resArr = new List<int>(), leftArr = new List<int>(), restOfArr = new List<int>();            
+
+            for(int i = 0; i<arrLength; i++)
             {
-                temp[i] = arr[i];
+                if (i < d)
+                {
+                    leftArr.Add(arr[i]);
+                }
+                else
+                {
+                    restOfArr.Add(arr[i]);
+                }
             }
 
-            for(int i=0, j=d; i<d && j<arr.Length; i++, j++)
-            {
-                arr[i] = arr[j];
-            }
-            for (int i = (arr.Length - d), j=0; i < arr.Length && j<temp.Length; i++, j++)
-            {
-                arr[i] = temp[j];
-            }
-            return arr;
+            resArr.AddRange(restOfArr);
+            resArr.AddRange(leftArr);
+            
+            return resArr;
         }
     }
 }
