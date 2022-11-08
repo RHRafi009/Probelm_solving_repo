@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LeetCode_Solves.Problems.Strings;
+using System;
+using System.Collections.Generic;
 
 namespace LeetCode_Solves
 {
@@ -6,7 +8,9 @@ namespace LeetCode_Solves
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            // add code here
+            watch.Stop();
         }
     }
 }
