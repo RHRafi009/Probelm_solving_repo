@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LeetCode_Solves.Problems;
+using LeetCode_Solves.Problems.InterviewProblems;
+using System;
 
 namespace LeetCode_Solves
 {
@@ -6,7 +8,22 @@ namespace LeetCode_Solves
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ListNode root1 = new ListNode(9, 
+                new ListNode(9, 
+                new ListNode(9, 
+                new ListNode(9,
+                new ListNode(9,
+                new ListNode(9,
+                new ListNode(9)))))));
+            ListNode root2 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
+
+            ListNode root3 = new AddTwoNumbers().Solution(root1, root2);
+            
+            while (root3 != null)
+            {
+                Console.WriteLine(root3.val);
+                root3 = root3.next;
+            }
         }
     }
 }
