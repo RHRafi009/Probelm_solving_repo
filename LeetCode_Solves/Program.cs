@@ -9,22 +9,8 @@ namespace LeetCode_Solves
     {
         static void Main(string[] args)
         {
-            ListNode root1 = new ListNode(9, 
-                new ListNode(9, 
-                new ListNode(9, 
-                new ListNode(9,
-                new ListNode(9,
-                new ListNode(9,
-                new ListNode(9)))))));
-            ListNode root2 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
-
-            ListNode root3 = new AddTwoNumbers().Solution(root1, root2);
-            
-            while (root3 != null)
-            {
-                Console.WriteLine(root3.val);
-                root3 = root3.next;
-            }
+            int[] nums = new int[] { 0, 1, 0, 3, 2, 3 };
+            Console.WriteLine(new LogestIncreasingSubsequence().LengthOfLIS(nums));
         }
     }
 }
